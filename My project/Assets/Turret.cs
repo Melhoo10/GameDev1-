@@ -1,13 +1,19 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-  public void SetVelocity(Vector3 direction)
-    { 
 
-    }
-  
+
+
+
+public class Turret : MonoBehaviour
+
+
+{//shooting 
+    public GameObject target;
+    public GameObject bullet;
+    public float rate_of_fire = 0.2f; 
+    public float shoot_timer = 0;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
