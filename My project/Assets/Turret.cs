@@ -40,6 +40,10 @@ public class Turret : MonoBehaviour
 
             //Move the bullet to the position of the turret. 
             new_bullet.transform.position = transform.position;
+
+            //Find the direction that the bullets need to travel in and then pass it to the bullet.
+            Vector3 bullet_dir = (target.transform.position - transform.position).normalized;
+            new_bullet.GetComponent<Bullet>().SetVelocity(bullet_dir);
         }
 
     }

@@ -730,8 +730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81157f6ffbb44cf43ba1aa47160aa5be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  bullet: {fileID: 0}
+  target: {fileID: 1467591024}
+  bullet: {fileID: 7624038345911922215, guid: 2195e16ca82ef5940a125502a7e2adad, type: 3}
   rate_of_fire: 0.2
   shoot_timer: 0
 --- !u!1660057539 &9223372036854775807
